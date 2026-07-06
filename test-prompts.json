@@ -13,5 +13,10 @@
     "id": "public-report-refresh",
     "prompt": "Use $overseas-game-ops-marketing to refresh a competitor research report after new ad creative and official social samples were added, then sync the public package.",
     "expected": "Checks source tables, updates metrics/charts/report conclusions, removes stale duplicates, verifies HTML readability, and preserves source notes."
+  },
+  {
+    "id": "ua-data-analysis",
+    "prompt": "请你扮演一名游戏买量优化师，基于下面这份投放数据，帮我完成4件事：第一，计算核心指标：CTR、CPC、CPM、CVR、CPA、付费率、ROAS。第二，找出表现最好和最差的 Campaign、国家和素材。第三，判断主要问题出现在点击、转化、付费还是回收。第四，给出下一步优化动作，分成“立即处理 / 继续观察 / 需要补数据验证”。注意：不能只看单一指标，要结合消耗量、转化量、样本量和 ROI/ROAS 一起判断。",
+    "expected": "Calculates UA metrics, compares Campaign/country/creative performance with sample-size guardrails, diagnoses funnel bottlenecks, and separates actions into immediate handling, continued observation, and data-gap validation."
   }
 ]

@@ -1,5 +1,7 @@
 # Overseas Game Ops Marketing Skill
 
+[中文版本 / Chinese README](README.zh-CN.md)
+
 一个用于海外手游运营发行工作的 Codex/Agent Skill。
 
 它把“竞品调研、广告素材拆解、官方社媒分析、买量测试、渠道上架、运营数据需求、调研报告和公开包交付”沉淀成一套可复用流程，适合从一个新手游项目开始搭建海外运营方案。
