@@ -1,0 +1,17 @@
+[
+  {
+    "id": "plan-first-production",
+    "prompt": "Use $overseas-game-ops-marketing to create a first-production overseas operations plan for a mobile tower defense game using existing competitor sources and ad creative samples.",
+    "expected": "Produces a stage-aware plan covering product judgment, competitor evidence, social account plan, UA creative tests, KPI tracking requirements, and source-backed next actions."
+  },
+  {
+    "id": "creative-teardown",
+    "prompt": "Use $overseas-game-ops-marketing to analyze a folder of competitor ad screenshots and video frames, then turn them into a creative sample table and test hypotheses.",
+    "expected": "Classifies samples as P0/P1/P2/Later, extracts hooks and risks, links local assets, and proposes measurable creative tests."
+  },
+  {
+    "id": "public-report-refresh",
+    "prompt": "Use $overseas-game-ops-marketing to refresh a competitor research report after new ad creative and official social samples were added, then sync the public package.",
+    "expected": "Checks source tables, updates metrics/charts/report conclusions, removes stale duplicates, verifies HTML readability, and preserves source notes."
+  }
+]
