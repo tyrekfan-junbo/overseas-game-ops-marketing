@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "海外游戏运营营销"
+  short_description: "沉淀海外手游调研、素材拆解、宣发计划和报告交付流程"
+  default_prompt: "Use $overseas-game-ops-marketing to build an overseas mobile game operations plan from competitor research, ad creatives, social content, channel strategy, and source archives."
