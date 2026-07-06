@@ -7,7 +7,7 @@
 ## 适用场景
 
 - 为新手游项目制定海外发行和运营方案
-- 分析 King Shot、Kingdom Rush 等竞品的广告素材、官方社媒和买量打法
+- 分析用户填写的竞品游戏广告素材、官方社媒和买量打法
 - 建立广告素材样本库、视频帧素材库、来源归档和样本表
 - 拆解 Meta、TikTok、YouTube、X、Reddit、Facebook、Instagram 等渠道内容
 - 设计 UA 买量测试方案、素材测试表和投放计划
@@ -33,7 +33,7 @@ Use $overseas-game-ops-marketing to build an overseas mobile game operations pla
 ## 快速创建项目工作区
 
 ```powershell
-python C:\Users\admin\.codex\skills\overseas-game-ops-marketing\scripts\init_ops_workspace.py "My Mobile Game" --out "D:\GameOps" --stage "first production" --competitors "King Shot,Kingdom Rush" --regions "US,JP,KR"
+python C:\Users\admin\.codex\skills\overseas-game-ops-marketing\scripts\init_ops_workspace.py "My Mobile Game" --out "D:\GameOps" --stage "first production" --competitors "Competitor Game A,Competitor Game B" --regions "US,JP,KR"
 ```
 
 生成内容包括：
@@ -101,19 +101,6 @@ python C:\Users\admin\.codex\skills\overseas-game-ops-marketing\scripts\init_ops
 - 付费金额 / 收入
 
 如果数据缺少收入、付费人数、安装量等关键字段，需要先标记为“需要补数据验证”，不要强行得出 ROAS 或付费率结论。
-
-## Darwin Gate 质量门
-
-本 skill 已加入 Darwin 风格质量门：
-
-- Frontmatter 是否清晰
-- 工作流是否可执行
-- 是否写明失败模式和 fallback
-- 是否有检查点
-- 是否具体到字段、指标、文件和输出
-- 是否避免过程痕迹和重复段落
-- 是否保留风险黑名单
-- 是否可用 `test-prompts.json` 做实测
 
 ## 目录结构
 

@@ -9,7 +9,7 @@
 ## 适用场景
 
 - 制定海外手游发行或运营方案
-- 分析 King Shot、Kingdom Rush 等竞品素材和官方社媒
+- 分析用户填写的竞品游戏素材和官方社媒
 - 建立广告素材样本库、视频帧拆解、P0/P1/P2/Later 优先级体系
 - 规划 X、Facebook、Instagram、TikTok、YouTube、Reddit 等社媒内容
 - 设计 UA 买量测试方案、素材测试表、投放计划
@@ -37,7 +37,7 @@ Use $overseas-game-ops-marketing to build an overseas mobile game operations pla
 为一个新游戏项目创建标准工作区：
 
 ```powershell
-python C:\Users\admin\.codex\skills\overseas-game-ops-marketing\scripts\init_ops_workspace.py "My Mobile Game" --out "D:\GameOps" --stage "first production" --competitors "King Shot,Kingdom Rush" --regions "US,JP,KR"
+python C:\Users\admin\.codex\skills\overseas-game-ops-marketing\scripts\init_ops_workspace.py "My Mobile Game" --out "D:\GameOps" --stage "first production" --competitors "Competitor Game A,Competitor Game B" --regions "US,JP,KR"
 ```
 
 脚本会生成：
@@ -73,19 +73,6 @@ python C:\Users\admin\.codex\skills\overseas-game-ops-marketing\scripts\init_ops
 
 6. **报告和公开包**  
    输出最终读者版本报告，不写过程痕迹；同步 HTML、图表、来源附录、CSV/JSON 和公开包。
-
-## Darwin Gate
-
-该 skill 已加入 Darwin 风格质量门：
-
-- Frontmatter 是否清晰
-- 工作流是否可执行
-- 是否写明失败模式和 fallback
-- 是否有检查点
-- 是否具体到字段、指标、文件和输出
-- 是否避免过程痕迹和重复段落
-- 是否保留风险黑名单
-- 是否可用 `test-prompts.json` 做实测
 
 ## 目录结构
 
